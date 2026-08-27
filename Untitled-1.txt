@@ -1,0 +1,10 @@
+mvc : model view controller
+model : ke dalam db dan query table
+view : ui/ux  html css js
+controller : ngarahin kemana kalian ingin pergi
+    - INDEX.BLADE.PHP
+        - CONTROLLER -> ROUTE (BROWSER)
+
+blade menghapus titik koma, memudahkan
+
+faker
