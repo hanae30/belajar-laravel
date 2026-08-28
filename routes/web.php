@@ -4,6 +4,9 @@ use App\Http\Controllers\LatihanController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\ProductController;
+use App\Http\Controllers\CategoryController;
+
 
 Route::inertia('/', 'welcome')->name('home');
 
@@ -41,3 +44,5 @@ Route::post('logout', [LoginController::class, 'destroy'])->name('logout');
 
 Route::resource('user', UserController::class)->middleware(['auth']);
 Route::resource('user', UserController::class);
+Route::resource('product', ProductController::class);
+Route::resource('category', CategoryController::class);
