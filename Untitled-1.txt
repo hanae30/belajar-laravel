@@ -21,3 +21,8 @@ git commit -m "first commit" -> git branch -M main ->git remote add origin https
 
 cascadeOnDelete -> itu akan semuanya hilang
 restrict -> ga akan bisa hapus tabel jika tabel itu sedang dipake
+
+cara psuh git yg kedua:
+git add .
+git commit -m "create crud produk"
+git push -u origin main
